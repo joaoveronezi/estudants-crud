@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   Container,
   DetailsWrapper,
   InfoContainer,
   InformationWrapper,
 } from "./Styled";
-import { app } from "../../utils/firebase";
 import Actions from "../Actions";
 
 const List = ({ estudante }) => {
